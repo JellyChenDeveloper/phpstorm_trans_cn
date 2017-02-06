@@ -1,0 +1,9 @@
+{
+    "plugins": [
+        "search",
+        "splitter",
+        "toggle-chapters",
+        "-ba"
+    ],
+    "pluginsConfig": {}
+}
