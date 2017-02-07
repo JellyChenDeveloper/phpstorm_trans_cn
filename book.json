@@ -3,7 +3,12 @@
         "search",
         "splitter",
         "toggle-chapters",
-        "-ba"
+        "-ba",
+        "baidu"
     ],
-    "pluginsConfig": {}
+    "pluginsConfig": {
+        "baidu": {
+            "token": "478bc0a6943ae89e801e8604fd3c85bb"
+        }
+    }
 }
