@@ -1,14 +1,57 @@
 {
     "plugins": [
-        "search",
         "splitter",
         "toggle-chapters",
-        "-ba",
-        "baidu"
+        "baidu",
+        "-search",
+        "search-pro",
+        "tbfed-pagefooter",
+        "back-to-top-button",
+        "ace",
+        "sharing",
+        "github"
     ],
     "pluginsConfig": {
         "baidu": {
             "token": "72839e5d29511282b0c5b3d5d13814b7"
+        },
+        "github": {
+            "url": "https://github.com/JellyChenDeveloper/phpstorm_trans_cn"
+        },
+        "search-pro": {
+            "cutWordLib": "nodejieba",
+            "defineWord": [
+                "PhpStorm中文手册"
+            ]
+        },
+        "tbfed-pagefooter": {
+            "copyright": "Copyright &copy jellychen 2017",
+            "modify_label": "该文件修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "sharing": {
+            "weibo": true,
+            "facebook": true,
+            "twitter": true,
+            "google": false,
+            "instapaper": false,
+            "vk": false,
+            "all": [
+                "facebook",
+                "google",
+                "twitter",
+                "weibo",
+                "instapaper"
+            ]
         }
-    }
+    },
+    "author": "jellychen",
+    "title": "PhpStorm中文手册",
+    "language": "zh-hans",
+    "links": {
+        "sidebar": {
+            "Jelly's Home": "https://www.jellychen.cn"
+        }
+    },
+    "description": "翻译phpstorm官方英文帮助手册"
 }
