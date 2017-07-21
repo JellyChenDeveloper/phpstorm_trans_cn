@@ -1,5 +1,7 @@
 # PhpStorm官方手册中文翻译
 
+  该翻译手册查看地址：http://phpstorm.book.jellychen.cn/
+
 
   官方帮助手册地址：https://www.jetbrains.com/help/phpstorm
   
